@@ -1,0 +1,80 @@
+/* Soy un comentario :) */
+/* 
+selector{
+    propiedad:valor;
+    propiedad:valor;
+    propiedad:valor;
+}
+
+*/
+
+body{
+    /*Color de fondo - click sobre el cuadro de color para ir a paleta de color*/
+    background-color: rgb(185, 225, 250);
+    /* font-family - Cambio de fuente de letra*/
+    font-family: 'Roboto Slab', serif;
+    /* Para colocar una imagen de fondo*/
+    background-image: url(./Images/Fondo\ 3.jpg);
+    /* Repetición de imagen en el fondo*/
+    background-repeat: no-repeat;
+    /* Posición de la imagen*/
+    background-position: center center;
+    /* Fijar imagen en el centro*/
+    background-attachment: fixed;
+    /* Covertura de la imagen en la pantalla*/
+    background-size: cover;
+
+
+}
+
+
+img{
+    /*Cambiar tamaño de imagenes*/
+    width: 40%; /*Ancho*/
+}
+
+p{
+    color: rgb(4, 4, 102);
+    font-size: 20px;
+}
+
+/* Para llamar a un elemento o clase (class) se coloca .*/
+.p-monarca{
+    color: rgb(156, 9, 9);
+}
+
+/*Para cambiar en algunas secciones el tipo de texto se le asigna una clase y se llama para cambiar su fuente*/
+.main-title{
+    font-family: 'Times New Roman', Times, serif;
+    /* Tamaño de letra */
+    font-size: 80px;
+    color: rgb(68, 7, 152);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.menu{
+    /* Div flexible para moverse con los elementos dentro de si */
+    display: flex;
+    /* Acomodo del flex */
+    flex-direction: column;
+    /* Alinear items centrados */
+    align-items: center;
+}
+
+a{
+    /*Color de texto de menu*/
+    color: rgb(168, 16, 44);
+    /* Línea debajo de la ancla*/
+    text-decoration: none;
+    font-size: 40px;
+
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
